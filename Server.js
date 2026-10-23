@@ -9,7 +9,7 @@ import bodyParser from 'express'
 import cors from 'cors'
 const app = express()
 mongoose.connect(
-    "mongodb+srv://Learning_database:8Ky9mNlRieAk7yhX@cluster0.2giegbu.mongodb.net/",
+    "mongodb+srv://saharraalmadeenalandscape_db_user:F6WVTirMwzXo1u9H@openion.zdvwhuu.mongodb.net/",
     {
         dbName:"admin_panel"
 }).then(()=>console.log("Mongoose Db Connected")).catch((err)=>console.log(err))
